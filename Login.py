@@ -7,7 +7,7 @@ mydb = mysql.connector.connect(host="localhost", user="root", passwd="Ishaan", d
 mycursor = mydb.cursor()
 
 def create_admin_account():
-    print("CREATE ADMIN ")
+    print("CREATE ADMIN ACC ")
     AdminID = input("Enter new Admin ID: ")
     Password = input("Enter Password to be set: ")
 
